@@ -1,0 +1,48 @@
+{
+  "name": "kiwi-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:main": "vite --port 9992",
+    "dev:docs": "npm run dev --prefix docs",
+    "dev": "run-p dev:main dev:docs",
+    "build": "echo 'start build docs' && cd docs && npm run build && cd ../ && rm -rf ./public/docs && mkdir -p ./public/docs && cp -r docs/docs/.vitepress/dist/* ./public/docs && echo 'build docs finished' && vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@selemondev/vue3-marquee": "^0.0.8",
+    "@vee-validate/zod": "^4.13.2",
+    "@vueuse/core": "^11.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "embla-carousel": "^8.3.0",
+    "embla-carousel-vue": "^8.3.0",
+    "lucide-vue-next": "^0.525.0",
+    "postcss": "^8.5.6",
+    "radix-vue": "^1.9.17",
+    "tailwind-merge": "^2.5.3",
+    "tailwindcss-animate": "^1.0.7",
+    "vee-validate": "^4.13.2",
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.9.0",
+    "@tsconfig/node22": "^22.0.2",
+    "@types/node": "^22.15.32",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "autoprefixer": "^10.4.21",
+    "npm-run-all2": "^8.0.4",
+    "tailwindcss": "^3.4.17",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.3",
+    "vite-plugin-vue-devtools": "^7.7.7",
+    "vue-tsc": "^2.2.12",
+    "wrangler": "^4.23.0"
+  }
+}

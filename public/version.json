@@ -1,0 +1,13 @@
+{
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "",
+      "version": "1.0.0",
+      "pub_date": "2025-07-01T15:43:00+08:00",
+      "force_update": true,
+      "notes": [],
+      "url": "https://kiwi.biexi.com/",
+      "size": 123456
+    }
+  }
+}
