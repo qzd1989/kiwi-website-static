@@ -3,7 +3,7 @@
     "windows-x86_64": {
       "signature": "",
       "version": "1.1.0",
-      "pub_date": "2025-07-10T18:50:00+08:00",
+      "pub_date": "2025-07-12T18:50:00+08:00",
       "force_update": true,
       "notes": [
         "1. Project logs now support Chinese display.",
@@ -15,7 +15,7 @@
     "windows-aarch64": {
       "signature": "",
       "version": "1.1.0",
-      "pub_date": "2025-07-10T18:50:00+08:00",
+      "pub_date": "2025-07-12T18:50:00+08:00",
       "force_update": true,
       "notes": [
         "1. Project logs now support Chinese display.",
@@ -27,7 +27,7 @@
     "macos-aarch64": {
       "signature": "",
       "version": "1.1.0",
-      "pub_date": "2025-07-10T18:50:00+08:00",
+      "pub_date": "2025-07-12T18:50:00+08:00",
       "force_update": true,
       "notes": [
         "1. Project logs now support Chinese display.",
