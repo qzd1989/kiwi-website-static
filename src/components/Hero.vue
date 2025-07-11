@@ -25,7 +25,7 @@ const mode = useColorMode();
 
         <div class="space-y-4 md:space-y-0 md:space-x-4">
           <a
-            href="https://github.com/qz1989-kiwi/kiwi/releases/download/v1.1.0/Kiwi_1.1.0_x64-setup.exe"
+            href="https://github.com/kiwi-biexi/kiwi/releases/download/v1.1.0/Kiwi_1.1.0_x64-setup.exe"
             target="_blank"
           >
             <Button class="font-bold group/arrow">
