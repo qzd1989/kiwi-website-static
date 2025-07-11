@@ -7,7 +7,7 @@ import Separator from "./ui/separator/Separator.vue";
     <div class="p-10">
       <Separator class="mb-8" />
       <section className="">
-        <h3 class="">2025 kiwi.biexi.com. All rights reserved.</h3>
+        <h3 class="">2025 Biexi.com All rights reserved.</h3>
       </section>
     </div>
   </footer>
