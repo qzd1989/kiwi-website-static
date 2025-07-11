@@ -34,7 +34,7 @@ import QQIcon from "./../icons/QQIcon.vue";
             </CardTitle>
           </CardHeader>
           <CardContent class="lg:w-[80%] text-xl text-muted-foreground">
-            Join the group chat to share and exchange your experiences.
+            Join the group chat to exchange ideas and experiences.
           </CardContent>
 
           <CardFooter>
