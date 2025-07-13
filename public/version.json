@@ -2,28 +2,34 @@
   "platforms": {
     "windows-x86_64": {
       "signature": "",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "pub_date": "2025-07-12T17:50:00+08:00",
       "force_update": false,
-      "notes": ["1. Provide more copyable code snippets and helpful tips."],
+      "notes": [
+        "1. Add a “Run Capturer” button so that users can run and debug scripts directly in the editor."
+      ],
       "url": "https://kiwi.biexi.com/",
       "size": 123456
     },
     "windows-aarch64": {
       "signature": "",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "pub_date": "2025-07-12T17:50:00+08:00",
       "force_update": false,
-      "notes": ["1. Provide more copyable code snippets and helpful tips."],
+      "notes": [
+        "1. Add a “Run Capturer” button so that users can run and debug scripts directly in the editor."
+      ],
       "url": "https://kiwi.biexi.com/",
       "size": 123456
     },
     "macos-aarch64": {
       "signature": "",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "pub_date": "2025-07-12T17:50:00+08:00",
       "force_update": false,
-      "notes": ["1. Provide more copyable code snippets and helpful tips."],
+      "notes": [
+        "1. Add a “Run Capturer” button so that users can run and debug scripts directly in the editor."
+      ],
       "url": "https://kiwi.biexi.com/",
       "size": 123456
     }
