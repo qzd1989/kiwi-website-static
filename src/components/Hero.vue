@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { useColorMode } from "@vueuse/core";
 import { Button } from "./ui/button";
+import YoutubeIcon from "@/icons/YoutubeIcon.vue";
+import BilibiliIcon from "@/icons/BilibiliIcon.vue";
 
 const mode = useColorMode();
 </script>
@@ -32,6 +34,31 @@ const mode = useColorMode();
               Download Kiwi 1.4.0 (x64) – Windows 11 only
             </Button>
           </a>
+        </div>
+        <div
+          class="space-y-4 md:space-y-0 md:space-x-4"
+          style="display: flex; justify-content: center"
+        >
+          <div
+            class="max-w-[400px] rounded-lg flex items-center p-2 gap-2 bg-lime-100 dark:bg-lime-900"
+          >
+            <div class="min-w-[100px] font-bold">User Guide:</div>
+            <a
+              href="https://www.youtube.com/watch?v=E8Sh44LntiM"
+              class="inline-flex items-center h-[25px]"
+              style="margin-right: 10px"
+              target="_blank"
+            >
+              <Component class="w-full h-full" :is="YoutubeIcon" />
+            </a>
+            <a
+              href="https://www.bilibili.com/video/BV1NCuzzfE64"
+              class="inline-flex items-center h-[30px]"
+              target="_blank"
+            >
+              <Component class="w-full h-full" :is="BilibiliIcon" />
+            </a>
+          </div>
         </div>
       </div>
 
