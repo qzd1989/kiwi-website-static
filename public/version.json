@@ -2,37 +2,28 @@
   "platforms": {
     "windows-x86_64": {
       "signature": "",
-      "version": "1.4.4",
-      "pub_date": "2025-07-12T17:50:00+08:00",
-      "force_update": false,
-      "notes": [
-        "1. refactor(python/kiwi): remove keyword-only constraints to allow positional arguments.",
-        "2. Introduced quick copy features: right-click to copy coordinates on canvas, and single-click to copy start/end points or recognized text."
-      ],
+      "version": "2.0.0",
+      "pub_date": "2025-11-16T17:50:00+08:00",
+      "force_update": true,
+      "notes": ["1. Added support for LAN debugging projects."],
       "url": "https://kiwi.biexi.com/",
       "size": 123456
     },
     "windows-aarch64": {
       "signature": "",
-      "version": "1.4.4",
-      "pub_date": "2025-07-12T17:50:00+08:00",
-      "force_update": false,
-      "notes": [
-        "1. refactor(python/kiwi): remove keyword-only constraints to allow positional arguments.",
-        "2. Introduced quick copy features: right-click to copy coordinates on canvas, and single-click to copy start/end points or recognized text."
-      ],
+      "version": "2.0.0",
+      "pub_date": "2025-11-16T17:50:00+08:00",
+      "force_update": true,
+      "notes": ["1. Added support for LAN debugging projects."],
       "url": "https://kiwi.biexi.com/",
       "size": 123456
     },
     "macos-aarch64": {
       "signature": "",
-      "version": "1.4.4",
-      "pub_date": "2025-07-12T17:50:00+08:00",
-      "force_update": false,
-      "notes": [
-        "1. refactor(python/kiwi): remove keyword-only constraints to allow positional arguments.",
-        "2. Introduced quick copy features: right-click to copy coordinates on canvas, and single-click to copy start/end points or recognized text."
-      ],
+      "version": "2.0.0",
+      "pub_date": "2025-11-16T17:50:00+08:00",
+      "force_update": true,
+      "notes": ["1. Added support for LAN debugging projects."],
       "url": "https://kiwi.biexi.com/",
       "size": 123456
     }

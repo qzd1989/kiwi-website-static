@@ -27,11 +27,11 @@ const mode = useColorMode();
 
         <div class="space-y-4 md:space-y-0 md:space-x-4">
           <a
-            href="https://github.com/kiwi-biexi/kiwi/releases/download/v1.4.4/Kiwi_1.4.4_x64-setup.exe"
+            href="https://github.com/kiwi-biexi/kiwi-assistant/releases/download/v2.0.0/KiwiAssistant_2.0.0_x64-setup.exe"
             target="_blank"
           >
             <Button class="font-bold group/arrow">
-              Download Kiwi 1.4.4 (x64) – Windows 10/11
+              Download Kiwi 2.0.0 (x64) – Windows 10/11
             </Button>
           </a>
         </div>
