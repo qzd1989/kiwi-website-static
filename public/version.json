@@ -6,7 +6,7 @@
       "pub_date": "2025-11-16T17:50:00+08:00",
       "force_update": true,
       "notes": ["1. Added support for LAN debugging projects."],
-      "url": "https://kiwi.biexi.com/",
+      "url": "https://github.com/kiwi-biexi/kiwi-assistant/releases/download/v2.0.0/KiwiAssistant_2.0.0_x64-setup.exe",
       "size": 123456
     },
     "windows-aarch64": {
@@ -15,7 +15,7 @@
       "pub_date": "2025-11-16T17:50:00+08:00",
       "force_update": true,
       "notes": ["1. Added support for LAN debugging projects."],
-      "url": "https://kiwi.biexi.com/",
+      "url": "https://github.com/kiwi-biexi/kiwi-assistant/releases/download/v2.0.0/KiwiAssistant_2.0.0_x64-setup.exe",
       "size": 123456
     },
     "macos-aarch64": {
